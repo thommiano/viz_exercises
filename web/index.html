@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/index.css"></link>
+
+		<!-- It's better to have a file in your folder than a reference like below -->
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+		<!-- Scripts -->
+		
+		<script type='text/javascript' src="scripts/d3.js"></script>
+		<script type='text/javascript' src="scripts/dc.js"></script>
+		<script type='text/javascript' src="scripts/crossfilter.js"></script>
+
+		<!-- Order of scripts matters! This one is using the above. -->
+		<script type='text/javascript' src="./scripts/index_dc.js"></script> 
+
+		<title>Random Set Matching</title>
+
+	</head>
+
+	<body>
+
+		<div class="title">Random Set Matching</div>
+
+		<div id="viz_container" class="pure-g">
+
+			<!-- Visualizations go here! -->
+
+			<div id="exp_chart" class="pure-u-1-2"></div>
+
+			<div id="comp_chart" class="pure-u-1-2"></div>
+
+			<div id="bar_chart" class="pure-u-1-1"></div>
+
+		</div>
+	
+	</body>
+</html>
+

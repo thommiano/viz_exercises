@@ -1,0 +1,57 @@
+/*----*/
+/*Tags*/
+/*----*/
+rect {
+	cursor: pointer;
+	opacity: .85; /* Lets you see grid lines. Shortcoming is that the color changes */
+}
+
+rect:hover {
+	opacity: 1;
+}
+
+text {
+	font-family: avenir next;
+	font-weight: regular;
+	font-size: 12pt;
+	pointer-events: none; /* Otherwise texts interfer when our mouse hovers over a rect */
+}
+
+/*-------*/
+/*Classes*/
+/*-------*/
+.selected {
+	/*fill: green;*/
+}
+
+.deselected {
+	opacity: 0.5;
+}
+
+.title {
+	text-align: center;
+	font-size: 36pt;
+	font-family: avenir next;
+	padding: 25px;
+}
+
+.axis line {
+	stroke: lightgrey;
+	stroke-width: 1;
+	/*stroke-dasharray: "5, 5";*/
+}
+
+/*---*/
+/*IDs*/
+/*---*/
+#bar_chart {
+	padding-left: 25px;
+}
+
+/*Curious about the space the divs holding your charts are taking up? Uncomment below to see*/
+/*#exp_chart,
+#comp_chart,
+#bar_chart {
+	box-shadow: 0px 0px 5px #888888;
+}
+*/
