@@ -1,5 +1,5 @@
 # Visualization Workshop 
-Held for the 2016 UVA Data Visualization class in the School of Architecture
+Held for the 2016 UVA Data Science Institute data visualization class in the School of Architecture
 
 # Summary:
 
